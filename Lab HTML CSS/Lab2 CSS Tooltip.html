@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab2 CSS Tooltips</title>
+    <style>
+        .tooltip {
+            position: relative;
+            display: inline-block;
+        }
+
+        .tooltip .tooltipcontent {
+            display: inline-block;
+            visibility: hidden;
+            border: 1px solid silver;
+            border-radius: 3px;
+            background-color: green;
+            padding: 5px;
+            color: white;
+            z-index: 1;
+            position: absolute;
+        }
+
+        .tooltip:hover .tooltipcontent{
+            visibility: visible;
+        }
+    </style>
+</head>
+
+<body style="text-align: center;">
+    <h1>Tooltips</h1>
+    <div class="tooltip">BBA<div class="tooltipcontent">Bachelor of Business Administration</div>
+    </div>
+</body>
+
+</html>

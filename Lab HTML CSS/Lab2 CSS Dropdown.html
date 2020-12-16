@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 2 CSS Dropdown</title>
+    <style>
+        .dropdown {
+            position: relative;
+            display: inline-block;
+            background-color: violet;
+            color: white;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: coral;
+            color: white;
+            /* width: 200px; */
+            text-align: center;
+            z-index: -1;
+        }
+        .dropdown:hover .dropdown-content{display: block
+            ;}
+    </style>
+</head>
+
+<body style="text-align: center;">
+    <h1>Dropdown</h1>
+    <div class="dropdown">Hover me! <div class="dropdown-content"><a href="#test">Wow You did it</a> </div></div>
+
+</body>
+
+</html>

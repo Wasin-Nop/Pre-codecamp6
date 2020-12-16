@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab2 CSS Pagination</title>
+    <style>
+        .center {
+            text-align: center;
+        }
+
+        .pagination {
+            display: inline-block;
+        }
+
+        .pagination a {
+            border: 1px solid silver;
+            border-radius: 10%;
+            text-decoration: none;
+            padding: 8px 16px;
+            color: black;
+        }
+
+        .pagination a.active {
+            background-color: darkgreen;
+            color: white;
+        }
+
+        .pagination a:hover:not(.active) {
+            background-color: green;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="center">Pagination</h1>
+
+    <div class="center">
+        <div class="pagination">
+            <a href="#">&laquo;</a>
+            <a href="#">1</a>
+            <a href="#">2</a>
+            <a class="active" href="#">3</a>
+            <a href="#">4</a>
+            <a href="#">5</a>
+            <a href="#">&raquo;</a>
+        </div>
+    </div>
+</body>
+
+</html>

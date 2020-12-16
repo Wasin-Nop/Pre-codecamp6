@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab HTML</title>
+</head>
+
+<body>
+    <p>
+        <center><strong> Attributes</strong>
+    </p>
+    </center>
+    <center>
+        <table border="1">
+    </center>
+    <thead>
+        <tr>
+            <th>Tags</th>
+            <th>Attributes</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>h1-6</td>
+            <td>Defines HTML headings</td>
+        </tr>
+        <tr>
+            <td>p</td>
+            <td>Defines a paragraph</td>
+        </tr>
+        <tr>
+            <td>div</td>
+            <td>Defines a section in a document</td>
+        </tr>
+        <tr>
+            <td>img</td>
+            <td>Defines an image</td>
+        </tr>
+        <tr>
+            <td>a</td>
+            <td>Defines a hyperlink </td>
+        </tr>
+        <tr>
+            <td>ul</td>
+            <td>Defines an unordered list</td>
+        </tr>
+        <tr>
+            <td>ol</td>
+            <td>Defines an ordered list</td>
+        </tr>
+        <tr>
+            <td>table</td>
+            <td>Defines a table</td>
+        </tr>
+        <tr>
+            <td>form</td>
+            <td>Defines an HTML form for user input</td>
+        </tr>
+        <tr>
+            <td>button</td>
+            <td>Defines a clickable button</td>
+        </tr>
+    </tbody>
+    </table>
+    <br>
+    <center>
+        <p><strong>Similarity & Differentiation</strong></p>
+    </center>
+    <center>
+        <table border="1">
+    </center>
+    <thead>
+        <th>Tags</th>
+        <th>Similarity</th>
+        <th>Differentiation</th>
+    </thead>
+    <tr>
+        <td>hr & br</td>
+        <td>ใช้คั่นข้อมูล ทำให้เกิดการแบ่งระหว่างบรรทัด</td>
+        <td>hr ใช้ขีดเส้นคั่นระหว่างหน้า br เกินช่องว่างระหว่างบรรทัด</td>
+    </tr>
+    <tr>
+        <td>ul & ol</td>
+        <td>ใช้ลำดับข้อมูล</td>
+        <td>ul ลิสไม่มีอันดับ ol เป็นลิสมีลำกับ 1,2,3....n</td>
+    </tr>
+    <tr>
+        <td>select & checkbox & radio button</td>
+        <td>เป็นช่องรับข้อมูล</td>
+        <td>select เป็นช่องรับข้อมูลแบบ drop down list <br>
+            checkbox ช่องรับข้อมูล เลือกได้มากกว่า 1 ช่อง <br>
+            radio button ช่องรับข้อมูล เลือกได้แค่ช่องเดียว
+        </td>
+    </tr>
+    <tr>
+        <td>div & span</td>
+        <td>ใช้สำหรับกำหนดรูปแบบหรือลักษณะข้อความที่อยู่ภาย tag มักใช้ร่วมกับ CSS</td>
+        <td>div เป็น tag ที่มีไว้แบ่งส่วนเนื้อหาของ HTML ออกจากกันเป็นส่วนๆ (block) ถ้าไม่ได้กำหนดคุณลักษณะใดๆ
+            ก็จะมีผลเหมือนกับการใช้ tag p และเมื่อแสดงผลแล้วจะขึ้นบรรทัดใหม่ให้อัตโนมัติ <br>
+            span แต่มักใช้จัดแต่ง ข้อความสั้นๆ (inline) ที่อยู่ใต้การกำหนดรูปแบบของ tag อื่นอยู่แล้ว
+            เพื่อให้มีรูปแบบที่ต่างไปจากรูปแบบเหล่านั้น และจะไม่ขึ้นบรรทัดใหม่</td>
+    </tr>
+    <tr>
+        <td>script & style</td>
+        <td>เป็น tag ภายใต้ html</td>
+        <td>script ใช้สำหรับการเขียน Javascript <br>
+            style ใช้สำหรับการเขียน CSS</td>
+    </tr>
+    </table>
+    <br>
+    <center>
+        <p><strong>Input Type</strong></p>
+    </center>
+    <center>
+        <table border="1">
+    </center>
+    <thead>
+        <th>Tags</th>
+        <th>Input Type</th>
+    </thead>
+    <tr>
+        <td>button</td>
+        <td>กำหนดปุ่มคลิกได้ (ส่วนใหญ่ใช้กับจาวาสคริปต์เพื่อเปิดใช้งานสคริปต์)</td>
+    </tr>
+    <tr>
+        <td>checkbox</td>
+        <td>กำหนดช่องทำเครื่องหมาย เลือกได้มากกว่า 1</td>
+    </tr>
+    <tr>
+        <td>color</td>
+        <td>กำหนดตัวเลือกสี</td>
+    </tr>
+    <tr>
+        <td>date</td>
+        <td>กำหนดช่องกำหนดปี เดือน และวัน (ไม่มีเวลา)</td>
+    </tr>
+    <tr>
+        <td>datetime-local</td>
+        <td>กำหนดวันที่และเวลาการควบคุม (ปีเดือนวันชั่วโมงนาทีวินาทีและเสี้ยววินาที (โซนเวลา)</td>
+    </tr>
+    <tr>
+        <td>email</td>
+        <td>กำหนดเขตข้อมูลที่อยู่อีเมล</td>
+    </tr>
+    <tr>
+        <td>file</td>
+        <td>กำหนดข้อมูลไฟล์และเลือกปุ่ม "Browse ... " (สำหรับการอัปโหลดไฟล์)</td>
+    </tr>
+    <tr>
+        <td>hidden</td>
+        <td>กำหนดช่องใส่ที่ซ่อนอยู่</td>
+    </tr>
+    <tr>
+        <td>image</td>
+        <td>กำหนดภาพเป็นปุ่มส่ง</td>
+    </tr>
+    <tr>
+        <td>month</td>
+        <td>กำหนดรับข้อมูลเดือนและปี</td>
+    </tr>
+    <tr> 
+        <td>number</td>
+        <td>กำหนดช่องสำหรับป้อนตัวเลข</td>
+    </tr>
+    <tr>
+        <td>password</td>
+        <td>กำหนดฟิลด์รหัสผ่าน</td>
+    </tr>
+    <tr>
+        <td>radio</td>
+        <td>กำหนดปุ่มรับข้อมูล เลือกได้แค่ช่องเดียว</td>
+    </tr>
+    <tr>
+        <td>range</td>
+        <td>กำหนดควบคุมสำหรับการป้อนจำนวนที่มีค่าที่แน่นอนไม่ได้เป็นสิ่งที่สำคัญ (เช่นการควบคุมเลื่อน)</td>
+    </tr>
+    <tr>
+        <td>reset</td>
+        <td>กำหนดปุ่มรีเซ็ต (รีเซ็ตค่าทุกรูปแบบไปเป็นค่าเริ่มต้น)</td>
+    </tr>
+    <tr>
+        <td>search</td>
+        <td>กำหนดฟิลด์ข้อความสำหรับการป้อนสตริงการค้นหา</td>
+    </tr>
+    <tr>
+        <td>submit</td>
+        <td>กำหนดปุ่มส่ง</td>
+    </tr>
+    <tr>
+        <td>tel</td>
+        <td>กำหนดฟิลด์สำหรับป้อนหมายเลขโทรศัพท์</td>
+    </tr>
+    <tr>
+        <td>text</td>
+        <td>ค่าเริ่มต้น. กำหนดฟิลด์ข้อความบรรทัดเดียว (กว้างเริ่มต้นคือ 20 ตัวอักษร)</td>
+    </tr>
+    <tr>
+        <td>time</td>
+        <td>กำหนดควบคุมสำหรับการป้อนเวลา (ไม่มีโซนเวลา)</td>
+    </tr>
+    <tr>
+        <td>url</td>
+        <td>กำหนดฟิลด์สำหรับป้อน URL ที่</td>
+    </tr>
+    <tr>
+        <td>week</td>
+        <td>กำหนดสัปดาห์และปี Control (ไม่มีโซนเวลา)</td>
+    </tr>
+    </table>
+    <br>
+    <center>
+        <table border="1">
+    </center>
+    <thead>
+        <th>Tags</th>
+        <th>Explain</th>
+    </thead>
+    <tr>
+        <td>strong</td>
+        <td><strong>เน้นว่าเป็นข้อมูลสำคัญ</strong></td>
+    </tr>
+    <tr>
+        <td>label</td>
+        <td>ใช้กำหนดป้ายชื่อให้กับ ช่องรับข้อมูล</td>
+    </tr>
+    <tr>
+        <td>del</td>
+        <td><del>ขีดเส้นทับตัวอักษร</del></td>
+    </tr>
+    <tr>
+        <td>b</td>
+        <td><b>ตัวอักษรหนาขึ้น</b></td>
+    </tr>
+    <tr>
+        <td>em</td>
+        <td><em>เน้นตัวอักษร(ทำให้เอียง)</em></td>
+    </tr>
+    <tr>
+        <td>mark</td>
+        <td><mark>ไฮไลท์ตัวอักษร</mark></td>
+    </tr>
+    <tr>
+        <td>i</td>
+        <td><i>เอียงตัวอักษร</i></td>
+    </tr>
+    <tr>
+        <td>sub</td>
+        <td><sub>ตัวอักษรชิดบรรทัดด้านล่าง</sub></td>
+    </tr>
+    <tr>
+        <td>sup</td>
+        <td><sup>ตัวอักษรชิดบรรทัดด้านบน</sup></td>
+    </tr>
+    </table>
+</body>
+
+</html>
